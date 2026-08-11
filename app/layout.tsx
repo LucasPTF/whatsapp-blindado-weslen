@@ -34,20 +34,11 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       locale: "pt_BR",
       url: origin,
-      images: [
-        {
-          url: `${origin}/og.png`,
-          width: 1792,
-          height: 900,
-          alt: "O anúncio funcionou. E agora? Veja o que acontece depois do clique.",
-        },
-      ],
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title: "O seu anúncio funcionou. E agora?",
       description: "Veja o que acontece com os leads depois do clique.",
-      images: [`${origin}/og.png`],
     },
   };
 }
