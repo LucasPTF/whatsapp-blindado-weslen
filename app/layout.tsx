@@ -4,6 +4,7 @@ import "@fontsource-variable/manrope";
 import "./globals.css";
 import "./layout-fixes.css";
 import "./layout-polish.css";
+import "./expert-photo.css";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
