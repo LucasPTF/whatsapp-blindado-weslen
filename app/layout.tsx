@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import "@fontsource-variable/manrope";
 import "./globals.css";
 import "./layout-fixes.css";
+import "./layout-polish.css";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();

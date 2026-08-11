@@ -1,0 +1,575 @@
+/* Ritmo tipográfico e espacial global. */
+
+:root {
+  --space-section: 112px;
+  --space-section-tablet: 94px;
+  --space-section-mobile: 76px;
+}
+
+body {
+  font-family: "Manrope Variable", Manrope, ui-sans-serif, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "wght" 450;
+  letter-spacing: -0.012em;
+  line-height: 1.55;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-family: "Manrope Variable", Manrope, ui-sans-serif, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 590;
+  text-wrap: balance;
+}
+
+h3 {
+  font-weight: 650;
+  text-wrap: balance;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+.section,
+.human-section {
+  padding-top: var(--space-section);
+  padding-bottom: var(--space-section);
+}
+
+section[id] {
+  scroll-margin-top: 24px;
+}
+
+.site-header {
+  height: 84px;
+}
+
+.brand strong {
+  font-weight: 720;
+}
+
+.hero {
+  min-height: 780px;
+  padding: 90px 0 112px;
+}
+
+.hero-grid {
+  gap: 84px;
+}
+
+.hero-copy h1 {
+  margin: 22px 0 30px;
+  line-height: 1.035;
+  letter-spacing: -0.047em;
+  font-weight: 570;
+}
+
+.hero-copy h1 em {
+  margin-top: 13px;
+}
+
+.hero-lead {
+  max-width: 660px;
+  line-height: 1.75;
+}
+
+.hero-actions {
+  margin-top: 38px;
+  gap: 28px;
+}
+
+.hero-meta {
+  margin-top: 28px;
+}
+
+.hero-visual {
+  padding: 26px;
+}
+
+.button {
+  min-height: 60px;
+  padding-inline: 24px;
+  font-weight: 760;
+}
+
+.trust-grid {
+  min-height: 116px;
+}
+
+.trust-grid strong {
+  font-weight: 680;
+}
+
+.section-kicker,
+.eyebrow {
+  line-height: 1.45;
+  font-weight: 760;
+}
+
+.section-kicker {
+  margin-bottom: 20px;
+}
+
+.split-heading {
+  gap: 88px;
+}
+
+.split-heading h2,
+.section-intro h2,
+.belief-copy h2,
+.human-copy h2,
+.expert-copy h2,
+.fit-grid h2,
+.offer-copy h2,
+.faq-grid h2,
+.final-inner h2 {
+  line-height: 1.085;
+  letter-spacing: -0.039em;
+}
+
+.recognition-copy {
+  padding-top: 10px;
+}
+
+.recognition-copy p {
+  margin-bottom: 20px;
+}
+
+.recognition-copy .callout {
+  margin-top: 30px;
+}
+
+.blind-grid {
+  gap: 16px;
+  margin-top: 60px;
+}
+
+.blind-card {
+  min-height: 264px;
+  padding: 30px 27px;
+}
+
+.blind-card h3 {
+  margin: 40px 0 14px;
+  line-height: 1.28;
+}
+
+.belief-grid {
+  gap: 74px;
+}
+
+.belief-copy h2,
+.human-copy h2,
+.expert-copy h2,
+.offer-copy h2,
+.faq-grid h2 {
+  margin-bottom: 28px;
+}
+
+.belief-copy > p:not(.section-kicker),
+.expert-copy > p:not(.section-kicker),
+.offer-copy > p:not(.section-kicker) {
+  margin: 0 0 18px;
+}
+
+.belief-comparison {
+  gap: 2px;
+}
+
+.comparison-card {
+  min-height: 350px;
+  padding: 32px;
+}
+
+.comparison-card strong {
+  margin-top: 28px;
+}
+
+.section-intro {
+  margin-bottom: 58px;
+}
+
+.section-intro h2 {
+  margin-bottom: 22px;
+}
+
+.section-intro > p:last-child {
+  margin: 0;
+}
+
+.trail-item {
+  min-height: 92px;
+}
+
+.trail-item strong {
+  font-weight: 670;
+}
+
+.mechanism-note {
+  margin-top: 38px;
+  padding: 22px;
+}
+
+.human-grid {
+  gap: 94px;
+}
+
+.human-copy h2 {
+  margin-bottom: 30px;
+}
+
+.human-copy > p:not(.section-kicker) {
+  margin: 0 0 17px;
+}
+
+.text-link {
+  margin-top: 22px;
+  font-weight: 720;
+}
+
+.human-visual {
+  min-height: 440px;
+  padding: 38px;
+}
+
+.curriculum .section-intro {
+  margin-bottom: 58px;
+}
+
+.module-grid {
+  gap: 16px;
+}
+
+.module-card {
+  min-height: 254px;
+  padding: 36px;
+}
+
+.module-card h3 {
+  margin: 38px 0 15px;
+}
+
+.expert-grid {
+  gap: 90px;
+}
+
+.expert-copy > p:not(.section-kicker) {
+  margin-bottom: 18px;
+}
+
+.expert-quote {
+  margin-top: 32px;
+  padding: 9px 0 9px 21px;
+}
+
+.fit-grid {
+  gap: 86px;
+}
+
+.fit-grid h2 {
+  line-height: 1.08;
+}
+
+.fit-list {
+  gap: 14px;
+}
+
+.fit-list li {
+  min-height: 104px;
+  padding: 24px;
+}
+
+.offer-grid {
+  gap: 90px;
+}
+
+.offer-copy > p:not(.section-kicker) {
+  margin-top: 26px;
+}
+
+.offer-copy ul {
+  margin-top: 32px;
+  gap: 15px 18px;
+}
+
+.price-card {
+  padding: 40px;
+}
+
+.price {
+  margin-top: 26px;
+}
+
+.price-card > p {
+  margin-bottom: 28px;
+}
+
+.date-status {
+  margin: 24px 0;
+  padding: 15px 0;
+}
+
+.faq-grid {
+  gap: 94px;
+}
+
+.faq-grid > div:first-child > p:last-child {
+  margin: 0;
+}
+
+summary {
+  min-height: 86px;
+  font-weight: 680;
+}
+
+details p {
+  margin: 0 50px 28px 0;
+}
+
+.final-section {
+  padding: 118px 0;
+}
+
+.final-inner h2 {
+  line-height: 1.09;
+  margin-bottom: 30px;
+}
+
+.final-inner > p:not(.section-kicker) {
+  margin-bottom: 26px;
+}
+
+.final-inner .button {
+  margin-top: 2px;
+}
+
+.final-inner small {
+  margin-top: 22px;
+}
+
+footer {
+  padding: 38px 0;
+}
+
+@media (max-width: 980px) {
+  .section,
+  .human-section {
+    padding-top: var(--space-section-tablet);
+    padding-bottom: var(--space-section-tablet);
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 72px 0 94px;
+  }
+
+  .hero-grid {
+    gap: 60px;
+  }
+
+  .belief-grid,
+  .human-grid,
+  .expert-grid,
+  .offer-grid {
+    gap: 58px;
+  }
+
+  .split-heading,
+  .fit-grid,
+  .faq-grid {
+    gap: 52px;
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    letter-spacing: -0.009em;
+  }
+
+  .site-header {
+    height: 72px;
+  }
+
+  .hero {
+    padding: 54px 0 74px;
+  }
+
+  .hero-copy h1 {
+    margin: 18px 0 25px;
+    font-size: clamp(40px, 12.3vw, 56px);
+    line-height: 1.055;
+    letter-spacing: -0.042em;
+  }
+
+  .hero-copy h1 em {
+    margin-top: 10px;
+  }
+
+  .hero-actions {
+    margin-top: 31px;
+    gap: 20px;
+  }
+
+  .hero-meta {
+    margin-top: 23px;
+  }
+
+  .hero-visual {
+    padding: 17px;
+  }
+
+  .section,
+  .human-section {
+    padding-top: var(--space-section-mobile);
+    padding-bottom: var(--space-section-mobile);
+  }
+
+  .trust-grid {
+    min-height: auto;
+    padding-block: 22px;
+  }
+
+  .split-heading {
+    gap: 32px;
+  }
+
+  .split-heading h2,
+  .section-intro h2,
+  .belief-copy h2,
+  .human-copy h2,
+  .expert-copy h2,
+  .fit-grid h2,
+  .offer-copy h2,
+  .faq-grid h2 {
+    line-height: 1.1;
+    letter-spacing: -0.034em;
+  }
+
+  .recognition-copy .callout {
+    margin-top: 24px;
+  }
+
+  .blind-grid {
+    margin-top: 44px;
+  }
+
+  .blind-card {
+    min-height: 218px;
+    padding: 27px 25px;
+  }
+
+  .blind-card h3 {
+    margin-top: 34px;
+  }
+
+  .belief-grid,
+  .human-grid,
+  .expert-grid,
+  .offer-grid {
+    gap: 46px;
+  }
+
+  .comparison-card {
+    min-height: 286px;
+    padding: 27px;
+  }
+
+  .section-intro,
+  .curriculum .section-intro {
+    margin-bottom: 44px;
+  }
+
+  .trail-item {
+    min-height: 104px;
+  }
+
+  .mechanism-note {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .human-visual {
+    min-height: 408px;
+    padding: 27px 20px;
+  }
+
+  .human-copy h2,
+  .expert-copy h2,
+  .offer-copy h2,
+  .faq-grid h2 {
+    margin-bottom: 24px;
+  }
+
+  .module-card {
+    min-height: 220px;
+    padding: 28px 26px;
+  }
+
+  .module-card h3 {
+    margin-top: 34px;
+  }
+
+  .expert-card {
+    min-height: 390px;
+  }
+
+  .expert-quote {
+    margin-top: 26px;
+  }
+
+  .fit-grid,
+  .faq-grid {
+    gap: 38px;
+  }
+
+  .fit-list li {
+    min-height: 94px;
+    padding: 22px;
+  }
+
+  .offer-copy ul {
+    margin-top: 26px;
+  }
+
+  .price-card {
+    padding: 29px 23px;
+  }
+
+  .faq-list {
+    margin-top: 2px;
+  }
+
+  summary {
+    min-height: 78px;
+  }
+
+  details p {
+    margin: 0 38px 24px 0;
+  }
+
+  .final-section {
+    padding: 82px 0;
+  }
+
+  .final-inner h2 {
+    font-size: clamp(40px, 11vw, 52px);
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+
+  .final-inner > p:not(.section-kicker) {
+    margin-bottom: 22px;
+  }
+
+  footer {
+    padding: 34px 0;
+  }
+}
