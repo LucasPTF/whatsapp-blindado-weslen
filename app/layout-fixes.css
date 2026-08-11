@@ -1,0 +1,57 @@
+/* Ajustes solicitados na revisão visual de 11/08/2026. */
+
+.curriculum .section-intro {
+  width: min(1160px, calc(100% - 40px));
+  max-width: 1160px;
+  margin: 0 auto 64px;
+}
+
+.curriculum .section-intro > * {
+  max-width: 690px;
+}
+
+.human-copy h2 {
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.human-copy > p:not(.section-kicker) {
+  margin: 0 0 16px;
+}
+
+.price sup {
+  align-self: flex-start;
+  margin: 0 0 0 12px;
+  padding-top: 18px;
+  font-size: 22px;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+.final-inner h2 {
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.final-inner > p:not(.section-kicker) {
+  margin: 0 0 24px;
+}
+
+@media (max-width: 720px) {
+  .curriculum .section-intro {
+    width: min(100% - 28px, 1160px);
+    margin-bottom: 50px;
+  }
+
+  .human-copy h2,
+  .final-inner h2 {
+    line-height: 1.12;
+    margin-bottom: 24px;
+  }
+
+  .price sup {
+    margin-left: 10px;
+    padding-top: 16px;
+    font-size: 20px;
+  }
+}
