@@ -2,7 +2,7 @@
   background:
     linear-gradient(180deg, rgba(5, 14, 24, 0.02) 35%, rgba(5, 14, 24, 0.88) 100%),
     linear-gradient(90deg, rgba(7, 17, 31, 0.1), rgba(7, 17, 31, 0)),
-    url("/weslen-farias-apresentacao.webp") center 24% / cover no-repeat;
+    url("https://cdn.imgchest.com/files/fbd362b1e189.png") center 24% / cover no-repeat;
   isolation: isolate;
 }
 
